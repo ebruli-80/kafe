@@ -1,0 +1,61 @@
+{
+  "cafe": [
+    {
+      "id": 1,
+      "NameCafe": "bahçe bostan",
+      "Adress": "cemalpaşa mahallesi adalet caddesi",
+      "phone": "1235456",
+      "email": "dfg@dfg.com"
+    },
+    {
+      "id": 2,
+      "NameCafe": "pizza 7",
+      "Adress": "uzun çarşı",
+      "phone": "7174569875",
+      "email": "pizza7@gmail.com"
+    },
+    {
+      "id": 3,
+      "NameCafe": "kardeşler",
+      "Adress": "7 mart karşısı",
+      "phone": "1568974512",
+      "email": "kardesler@dfg.com"
+    },
+    {
+      "name": "",
+      "Adress": "",
+      "email": "",
+      "id": 4
+    },
+    {
+      "name": "ebruli",
+      "Adress": "",
+      "email": "ebruli@ebruli.com",
+      "id": 5
+    },
+    {
+      "name": "dominos",
+      "Adress": "",
+      "email": "dominos@dominos.com",
+      "id": 6
+    },
+    {
+      "name": "ömer usta",
+      "Adress": "uzun çarşi",
+      "email": "usta@usta.com",
+      "id": 7
+    },
+    {
+      "name": "",
+      "Adress": "valifahribey",
+      "email": "sarma@sarma.com",
+      "id": 8
+    },
+    {
+      "NameCafe": "dominos",
+      "Adress": "çarşı",
+      "email": "domi@domi.com",
+      "id": 9
+    }
+  ]
+}

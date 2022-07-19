@@ -1,0 +1,26 @@
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Cafe</th>
+        <th scope="col">Adres</th>
+        <th scope="col">Email</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let cafe of collection">
+          
+          <td>{{cafe.id}}</td>
+          
+          <td>{{cafe.NameCafe}}</td>
+          <td>{{cafe.Adress}}</td>
+          <td>{{cafe.email}}</td>
+          <td><a routerLink="/update/{{cafe.id}}"><i class="fa fa-edit" style="font-size:30px;color:green"></i> </a> &nbsp; &nbsp;
+            <i click="deleteCafe(cafe.id)" class="fa fa-trash" style="font-size:30px;color:red"></i></td>
+        
+      </tr>
+    </tbody>
+  </table>

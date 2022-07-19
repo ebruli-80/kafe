@@ -1,0 +1,22 @@
+<div class="jumbatron"><h1>Cafe kayıt formu</h1></div>
+
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>success</strong> data added successfully 
+    <button (click)="closeAlert()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+<form [formGroup]="addCafe" (ngSubmit)="createCafe()">
+    <div class="mb-3 form-group">
+      <label class="form-label">İsim</label>
+      <input type="text" class="form-control" placeholder="İsminizi giriniz..." formControlName="NameCafe">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Adres</label>
+        <input type="text" class="form-control" placeholder="Adresinizi giriniz..."formControlName="Adress">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Emailinizi giriniz..."formControlName="email">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Gönder</button>
+  </form>
